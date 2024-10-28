@@ -10,11 +10,11 @@ document.querySelectorAll("img")[1].setAttribute("src", randomSource1);
 
 
 if(randomNumber > randomNumber1){
-    document.querySelector("h1").innerHTML("player1 wins!");
+    document.querySelector("h1").innerHTML = "player1 wins! 👑";
 }
 else if ( randomNumber1 > randomNumber){
-    document.querySelector("h1").innerHTML("player2 wins!");
+    document.querySelector("h1").innerHTML = "player2 wins! 👑";
 }
 else{
-    document.querySelector("h1").innerHTML("draw!");
+    document.querySelector("h1").innerHTML = "draw!";
 }
